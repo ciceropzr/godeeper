@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  background-image: url("Assets/GoDeeper-Imagem-Desktop.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+  width: 100%;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: flex-end;
+  height: 100%;
+}
+
+.description-logo {
+  width: 90%
+}
+
+.description-text {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  width: 300px
+}
+
+.description-link {
+  display: flex;
+  align-self: flex-end;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: flex-end;
+  height: 100%
+}
+
+.contact-imgs {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+
+.img-contact {
+  width: 40px
+}
