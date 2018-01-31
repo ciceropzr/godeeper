@@ -130,7 +130,33 @@ body {
   }
 
   .description-text {
+    align-self: center;
     width: 80%;
     margin: 10px;
+    line-height: 20px
+  }
+
+  .description-link {
+    display: none;
+  }
+
+  .contact {
+    height: 30vh;
+    justify-content: center;
+    align-self: center;
+    padding-bottom: 20px;
+  }
+
+  .contact-imgs {
+    flex-direction: row;
+    align-self: center;
+  }
+
+  .img-contact {
+    width: 75px
+  }
+
+  .contact-text {
+    align-self: center;
   }
 }
