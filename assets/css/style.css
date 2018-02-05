@@ -72,8 +72,8 @@ body {
 }
 
 .arrow {
+  font-family: 'SkyhookMonoBold', sans-serif;
   color: rgb(255, 0, 112);
-  font-weight: 900;
   font-size: 22px;
 }
 
@@ -165,6 +165,7 @@ body {
     display: flex;
     width: 100%;
     z-index: 2;
+    min-height: 100%;
   }
 
   .logo-img {
