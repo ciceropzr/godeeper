@@ -28,6 +28,7 @@ body {
   background-position: center;
   background-size: cover;
   min-height: 100vh;
+  box-sizing: border-box;
 }
 
 .container {
@@ -60,8 +61,14 @@ body {
   font-weight: 600;
   line-height: 23px;
   width: 300px;
+  height: 400px;
   margin-top: 20px;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
+  overflow: auto; 
+}
+
+.description-text::-webkit-scrollbar { 
+  display: none;
 }
 
 .arrow {
@@ -173,6 +180,8 @@ body {
     width: 80%;
     margin: 10px;
     line-height: 28px;
+    overflow: hidden;
+    height: 60%;
   }
 
   .description-link {
@@ -190,7 +199,6 @@ body {
     flex-direction: row;
     align-self: center;
     padding-bottom: 30px;
-
   }
 
   .img-contact-desk {
