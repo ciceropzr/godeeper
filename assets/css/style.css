@@ -71,7 +71,10 @@ body {
 }
 
 .description-logo {
-  width: 300px
+  width: 300px;
+  position: absolute;
+  top: 30px;
+  align-self:flex-start;
 }
 
 .home-mobile {
@@ -79,6 +82,7 @@ body {
 }
 
 .description-text {
+  display: none;
   font-family: 'Source Sans Pro', sans-serif;
   text-align: left;
   font-size: 15px;
