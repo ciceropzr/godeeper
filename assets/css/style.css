@@ -182,6 +182,10 @@ body {
     width: 100%;
   }
 
+  .img-dipper {
+    display: none;
+  }
+
   .description {
     align-self: flex-start;
   }
