@@ -1,6 +1,6 @@
 @font-face {
     font-family: SkyhookMonoRegular;
-    src: url("../fonts/SkyhookMono_regular.tff");
+    src: url("../fonts/SkyhookMono_regular.tff"); 
 }
 
 @font-face {
@@ -160,6 +160,7 @@ body {
 @media (max-width: 425px) {
   .main {
     background-image: none;
+    width: 100% ;
   }
 
   .container {
