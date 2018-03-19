@@ -1,4 +1,4 @@
-let texto = document.getElementById('text');
+/*let texto = document.getElementById('text');
 let lastposition = 0
 let heightBody = document.body.offsetHeight;
 let heightText = document.getElementById('text').scrollHeight;
@@ -23,4 +23,10 @@ function move_down() {
 
 function move_up() {
 	document.getElementById('text').scrollTop -= 20;
+}*/
+
+document.getElementById("main").onload = function() {myFunction()};
+
+function myFunction() {
+    document.getElementById("img-dipper").style.display = "block";
 }

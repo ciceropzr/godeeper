@@ -1,4 +1,4 @@
-@font-face {
+@font-face {  
     font-family: SkyhookMonoRegular;
     src: url("../fonts/SkyhookMono_regular.tff"); 
 }
@@ -22,7 +22,7 @@ body {
   margin: 0px;
 }
 
-@keyframes zoom {
+/*@keyframes zoom {
   0% {
     width: 72%;
   }
@@ -42,11 +42,11 @@ body {
     left: 12%;
     bottom: 20%;
   }
-}
+}*/
 
 .main {
   display: flex;
-  background-image: url("../img/GoDeeper-Imagem-Background.jpg");
+  background-image: url("../img/GoDeeper-Imagem-Desktop.jpg");
   background-position: 50% 50%;
   background-size: cover;
   background-attachment: fixed;
@@ -65,11 +65,12 @@ body {
 }
 
 .img-dipper {
-  position: absolute;
+  display: none;
+/*  position: absolute;
   width: 75%;
   left: 12%;
   bottom: 25%;
-  animation: zoom 5s ease-in-out forwards, slide 5s ease-in-out forwards;
+  animation: zoom 5s ease-in-out forwards, slide 5s ease-in-out forwards;*/
 }
 
 .description {
